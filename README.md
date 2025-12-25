@@ -30,22 +30,6 @@ The goal of this project is to apply core concepts of **Dynamic Memory Allocatio
 - **Persistent storage**, with all updates saved back to the file upon exit
 
 ---
-
-## Data Structure
-The system is implemented using a **Doubly Linked List**, where each node represents a vehicle:
-
-```c
-typedef struct Vehicle {
-    int vehicle_ID;
-    char make[50];
-    char model[30];
-    int year;
-    int mileage;
-    int cost;
-    struct Vehicle *next;
-    struct Vehicle *prev;
-} Vehicle;
-
 ## Program Flow
 1. The user provides the file path (`carList.txt`)
 2. Vehicle data is loaded into a doubly linked list
@@ -82,5 +66,23 @@ Housna Mounib (121932)
 ##Supervisor
 Dr. Falah Bouchaib
 
+## Data Structure
+The system is implemented using a **Doubly Linked List**, where each node represents a vehicle:
+
+```c
+typedef struct Vehicle {
+    int vehicle_ID;
+    char make[50];
+    char model[30];
+    int year;
+    int mileage;
+    int cost;
+    struct Vehicle *next;
+    struct Vehicle *prev;
+} Vehicle;
+
 ##Academic Note
 This project was developed strictly for academic purposes and was demonstrated live in front of the instructor as required.
+
+
+
