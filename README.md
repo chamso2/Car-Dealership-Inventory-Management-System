@@ -6,6 +6,13 @@ This project is a **Car Dealership Inventory Management System** developed in **
 The goal of this project is to apply core concepts of **Dynamic Memory Allocation** and **Doubly Linked Lists** by building a console-based system that enables a car dealership to efficiently manage vehicle inventory records.
 
 ---
+## Authors
+Chaimae Aboulrhit (122215)
+Housna Mounib (121932)
+
+##Supervisor
+Dr. Falah Bouchaib
+
 
 ## Learning Objectives
 - Master **dynamic memory allocation** in C
@@ -47,25 +54,6 @@ The goal of this project is to apply core concepts of **Dynamic Memory Allocatio
 
 ---
 
-## Project Structure
-```text
-├── src/
-│   ├── main.c
-│   ├── vehicle.c
-│   ├── vehicle.h
-│   ├── file_io.c
-│   └── menu.c
-├── data/
-│   └── carList.txt
-├── README.md
-
-## Authors
-Chaimae Aboulrhit (122215)
-Housna Mounib (121932)
-
-##Supervisor
-Dr. Falah Bouchaib
-
 ## Data Structure
 The system is implemented using a **Doubly Linked List**, where each node represents a vehicle:
 
@@ -83,6 +71,20 @@ typedef struct Vehicle {
 
 ##Academic Note
 This project was developed strictly for academic purposes and was demonstrated live in front of the instructor as required.
+
+## Project Structure
+```text
+├── src/
+│   ├── main.c
+│   ├── vehicle.c
+│   ├── vehicle.h
+│   ├── file_io.c
+│   └── menu.c
+├── data/
+│   └── carList.txt
+├── README.md
+
+
 
 
 
