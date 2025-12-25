@@ -73,7 +73,7 @@ typedef struct Vehicle {
 This project was developed strictly for academic purposes and was demonstrated live in front of the instructor as required.
 
 ## Project Structure
-```text
+
 ├── src/
 │   ├── main.c
 │   ├── vehicle.c
